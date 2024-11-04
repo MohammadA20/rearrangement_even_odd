@@ -15,3 +15,6 @@ for sort in sorted(LIST_NUMBERS):
     else:
         ODD_NUMBERS.append(sort)
         print(sort, " is an odd number")
+
+NUMBERS_COMBINED = EVEN_NUMBERS + ODD_NUMBERS
+print("This is the list with an even numbers before odd numbers:", NUMBERS_COMBINED)
