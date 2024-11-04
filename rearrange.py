@@ -8,6 +8,7 @@ print(LIST_NUMBERS)
 EVEN_NUMBERS = []
 ODD_NUMBERS = []
 
+# In this for loop, we will check if the number is even or odd
 for sort in sorted(LIST_NUMBERS):
     if sort % 2 == 0:
         EVEN_NUMBERS.append(sort)
@@ -16,5 +17,6 @@ for sort in sorted(LIST_NUMBERS):
         ODD_NUMBERS.append(sort)
         print(sort, " is an odd number")
 
+# Then  we will add the numbers sorted from even to odd numbers in the list
 NUMBERS_COMBINED = EVEN_NUMBERS + ODD_NUMBERS
 print("This is the list with an even numbers before odd numbers:", NUMBERS_COMBINED)
