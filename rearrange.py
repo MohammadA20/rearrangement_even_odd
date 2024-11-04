@@ -8,3 +8,10 @@ print(LIST_NUMBERS)
 EVEN_NUMBERS = []
 ODD_NUMBERS = []
 
+for sort in sorted(LIST_NUMBERS):
+    if sort % 2 == 0:
+        EVEN_NUMBERS.append(sort)
+        print(sort, " is an even number")
+    else:
+        ODD_NUMBERS.append(sort)
+        print(sort, " is an odd number")
